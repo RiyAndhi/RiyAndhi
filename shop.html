@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Belanja - PetShop</title>
+   <link rel="icon" href="images/icon-logo.png" type="image/png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+   <section class="flex">
+      <a href="home.html" class="logo"><i class="fas fa-paw"></i> Pet<span>Shop</span></a>
+      <nav class="navbar">
+         <a href="home.html">Beranda</a>
+         <a href="about.html">Tentang</a>
+         <a href="orders.html">Pesanan</a>
+         <a href="shop.html">Belanja</a>
+         <a href="contact.html">Kontak</a>
+      </nav>
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <a href="#"><i class="fas fa-search"></i></a>
+         <a href="#"><i class="fas fa-heart"></i><span>(6)</span></a>
+         <a href="#"><i class="fas fa-shopping-cart"></i><span>(5)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+      </div>
+      <div class="profile">
+         <p>Silahkan masuk atau daftar terlebih dahulu!</p>
+         <div class="flex-btn">
+            <a href="#" class="option-btn">Daftar</a>
+            <a href="#" class="option-btn">Masuk</a>
+         </div>
+      </div>
+   </section>
+</header>
+
+<section class="products">
+   <h1 class="heading">PRODUK TERBARU</h1>
+   <div class="box-container">
+   <form action="" method="post" class="box">
+      <button class="fas fa-heart" type="submit" name="add_to_wishlist"></button>
+      <a href="images/home-img-1.png" class="fas fa-eye"></a>
+      <img src="images/home-img-1.png" alt="">
+      <div class="name">Whiskas Kaleng 340g</div>
+      <div class="flex">
+         <div class="price"><span>Rp.</span>49.000<span>/-</span></div>
+         <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
+      </div>
+      <input type="submit" value="Tambah ke Keranjang" class="btn" name="add_to_cart">
+   </form>
+   <form action="" method="post" class="box">
+      <button class="fas fa-heart" type="submit" name="add_to_wishlist"></button>
+      <a href="images/home-img-2.png" class="fas fa-eye"></a>
+      <img src="images/home-img-2.png" alt="">
+      <div class="name">Tas Hewan Keren</div>
+      <div class="flex">
+         <div class="price"><span>Rp.</span>159.000<span>/-</span></div>
+         <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
+      </div>
+      <input type="submit" value="Tambah ke Keranjang" class="btn" name="add_to_cart">
+   </form>
+   <form action="" method="post" class="box">
+      <button class="fas fa-heart" type="submit" name="add_to_wishlist"></button>
+      <a href="images/home-img-3.png" class="fas fa-eye"></a>
+      <img src="images/home-img-3.png" alt="">
+      <div class="name">Per Cargo</div>
+      <div class="flex">
+         <div class="price"><span>Rp.</span>199.000<span>/-</span></div>
+         <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
+      </div>
+      <input type="submit" value="Tambah ke Keranjang" class="btn" name="add_to_cart">
+   </form>
+   </div>
+</section>
+
+<footer class="footer">
+   <section class="grid">
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="home.html"> <i class="fas fa-angle-right"></i> Beranda</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> Tentang</a>
+         <a href="shop.html"> <i class="fas fa-angle-right"></i> Belanja</a>
+         <a href="contact.html"> <i class="fas fa-angle-right"></i> Kontak</a>
+      </div>
+      <div class="box">
+         <h3>extra links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> Masuk</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> Daftar</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> Keranjang</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> Pesanan</a>
+      </div>
+      <div class="box">
+         <h3>contact us</h3>
+         <a href="#"><i class="fas fa-phone"></i> +62 888 888 888</a>
+         <a href="#"><i class="fas fa-phone"></i> +62 888 888 888</a>
+         <a href="#"><i class="fas fa-envelope"></i> petshop@gmail.com</a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i> Yogyakarta, Indonesia - 12345 </a>
+      </div>
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+         <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+         <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+         <a href="#"><i class="fab fa-tiktok"></i>Tiktok</a>
+      </div>
+   </section>
+   <div class="credit">&copy; copyright @2024 by <span>Kelompok PetShop</span></div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
